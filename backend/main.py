@@ -18,3 +18,5 @@ app.include_router(chat_router, prefix="/api")
 @app.get("/")
 def root():
     return {"message": "DocuMind API is running 🚀"}
+
+

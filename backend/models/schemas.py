@@ -13,4 +13,3 @@ class ChatResponse(BaseModel):
     sources:list[str]
     session_id :str 
 
-    
