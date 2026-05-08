@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from models.schemas import ChatRequest, ChatResponse
 from services.rag_pipeline import ask_question
-
+ 
 router = APIRouter()
 
 
@@ -16,3 +16,4 @@ async def chat(request: ChatRequest):
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+

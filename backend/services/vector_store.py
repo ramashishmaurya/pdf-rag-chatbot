@@ -19,9 +19,10 @@ def get_or_create_collection(session_id: str):
         embedding_function=get_embeddings(),
         persist_directory=CHROMA_PATH
     )
-
+# thathas to make  
 
 def add_documents(session_id: str, documents):
     vectorstore = get_or_create_collection(session_id)
     vectorstore.add_documents(documents)
     return vectorstore
+
