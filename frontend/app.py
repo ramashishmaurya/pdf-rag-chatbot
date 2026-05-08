@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🧠 DocuMind — AI Document Research Assistant")
+st.title("AI Document Research Assistant")
 
 # Session initialize
 if "session_id" not in st.session_state:
