@@ -3,7 +3,8 @@ import requests
 import uuid
 
 # API URL
-API_URL = "http://host.docker.internal:8000/api"
+API_URL = "https://pdf-rag-chatbot-2.onrender.com/api"
+
 
 st.set_page_config(
     page_title="DocuMind",
